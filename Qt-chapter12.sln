@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Threaddlg", "Threaddlg\Threaddlg.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Semaphore", "Semaphore\Semaphore.vcxproj", "{1B1138B8-5DC7-4243-BF4A-E7B4E2B8B8FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaitCondition", "WaitCondition\WaitCondition.vcxproj", "{D6AA2682-EE54-431A-BEBF-AD4AE8CE5085}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +19,14 @@ Global
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
 		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{1B1138B8-5DC7-4243-BF4A-E7B4E2B8B8FD}.Debug|x64.ActiveCfg = Debug|x64
+		{1B1138B8-5DC7-4243-BF4A-E7B4E2B8B8FD}.Debug|x64.Build.0 = Debug|x64
+		{1B1138B8-5DC7-4243-BF4A-E7B4E2B8B8FD}.Release|x64.ActiveCfg = Release|x64
+		{1B1138B8-5DC7-4243-BF4A-E7B4E2B8B8FD}.Release|x64.Build.0 = Release|x64
+		{D6AA2682-EE54-431A-BEBF-AD4AE8CE5085}.Debug|x64.ActiveCfg = Debug|x64
+		{D6AA2682-EE54-431A-BEBF-AD4AE8CE5085}.Debug|x64.Build.0 = Debug|x64
+		{D6AA2682-EE54-431A-BEBF-AD4AE8CE5085}.Release|x64.ActiveCfg = Release|x64
+		{D6AA2682-EE54-431A-BEBF-AD4AE8CE5085}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
