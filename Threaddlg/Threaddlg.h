@@ -1,15 +1,26 @@
 #pragma once
+#pragma execution_character_set("utf-8")
 
-#include <QtWidgets/QWidget>
-#include "ui_Threaddlg.h"
+#include <QtWidgets/QDialog>
+#include <QPushButton>
+#include "WorkThread.h"
+#define MAXSIZE 4
 
-class Threaddlg : public QWidget
+class ThreadDlg : public QDialog
 {
 	Q_OBJECT
 
 public:
-	Threaddlg(QWidget *parent = Q_NULLPTR);
-
+	ThreadDlg(QWidget *parent = 0);
+	~ThreadDlg();
 private:
-	Ui::ThreaddlgClass ui;
+	QPushButton * startBtn;
+	QPushButton *stopBtn;
+	QPushButton *quitBtn;
+	public slots:
+	void slotStart();
+	void slotStop();
+private:
+	WorkThread * workThread[MAXSIZE];
 };
+
